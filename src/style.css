@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url("/img/you-employed.png");
+}
+
+nav {
+  padding: 15px 20px;
+
+}
+
+.bg-color {
+  background-color: gold;
+}
+
+table {
+  border-style: solid;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+tr {
+  border-style: solid;
+}
+
+th {
+  border-style: solid;
+  font-weight: 900;
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+}
+
+td {
+  border-style: solid;
+  font-size: 12px;
+  padding: 5px;
+}
+
+h2 {
+  margin: 15px;
+}
+
+#cfContainer {
+  background-color: darkmagenta;
+  margin: 30px;
+
+}
+
+/*#cfBackground {
+  display: inline-block;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}*/
+
+#boxes {
+  z-index: 1;
+  display: flex;
+}
+
+.box {
+  background-color: aqua;
+  margin: 10px 15px;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+form {
+  margin: 20px;
+  display: inline-block;
+}
+
+.fname-cont, .lname-cont {
+  margin: 5px 15px;
+}
