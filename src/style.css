@@ -1,63 +1,68 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: url("/img/you-employed.png");
+  color: #000;
 }
 
 nav {
   padding: 15px 20px;
-
 }
 
 .bg-color {
   background-color: gold;
 }
 
-table {
-  border-style: solid;
-  display: inline-block;
-  margin-top: 10%;
+.bg-cont {
+  
+  background-image: url("https://www.generation.org/wp-content/uploads/2020/06/you-employed-home-square2-2x.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ 
 }
 
-tr {
-  border-style: solid;
+.over-img {
+  z-index: 2;
+  background-color: rgba(240, 240, 240, 0.7);
 }
+
+
+table {
+  border: 1px solid #000;
+  margin-top: 10%;
+  text-align: left;
+}
+
 
 th {
-  border-style: solid;
-  font-weight: 900;
+border: 1px solid #000;
+  font-weight: 600;
   font-size: 13px;
   padding: 5px;
-  text-align: center;
 }
 
 td {
-  border-style: solid;
+  border: 1px solid #000;
   font-size: 12px;
   padding: 5px;
+  
 }
 
 h2 {
-  margin: 15px;
+  margin: 20px;
 }
 
-#cfContainer {
-  background-color: darkmagenta;
-  margin: 30px;
-
-}
-
-/*#cfBackground {
-  display: inline-block;
-  z-index: -1;
-  margin: 0px;
-  padding: 0px;
+.cfContainer {
+  background-color: hotpink;
   width: 100%;
-}*/
+  margin: auto;
+  padding: 15px;
+
+}
 
 #boxes {
-  z-index: 1;
   display: flex;
+  text-align: center;
 }
 
 .box {
@@ -69,9 +74,22 @@ h2 {
 
 form {
   margin: 20px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 
 .fname-cont, .lname-cont {
-  margin: 5px 15px;
+  margin: 15px 0px;
+  font-size: 14px;
+}
+
+button {
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: aqua;
+  font-weight: 600;
+  color: black;
+  margin: 15px 0px;
+  border: none;
 }
